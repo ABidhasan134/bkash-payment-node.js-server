@@ -10,9 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mongodb": "^6.10.0"
+    "http-status-codes": "^2.3.0",
+    "mongodb": "^6.10.0",
+    "node-fetch": "^2.7.0",
+    "uuid": "^11.0.2",
+    "uuidv4": "^6.2.13"
   }
 }
