@@ -18,6 +18,7 @@ app.use(cors({
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// api for find route and route for different routes
 app.use('/api',require('./routes/routes'))
 app.get('/', (req, res) => res.send("Paymate will be available soon"));
 
